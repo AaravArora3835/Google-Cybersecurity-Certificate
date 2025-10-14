@@ -2,7 +2,7 @@
 
 ## Overview
 This repository documents my progress through the **Google Cybersecurity Professional Certificate** on Coursera.  
-It follows my Cybersecurity Roadmap v4.8 Foundation, with organized weekly notes, essential screenshots, and weekly reflections.  
+It follows my Cybersecurity Roadmap v4.6.1 Foundation, with organized weekly notes, essential screenshots, and weekly reflections.  
 All content demonstrates consistent documentation, technical accuracy, and project management discipline.
 
 ---
