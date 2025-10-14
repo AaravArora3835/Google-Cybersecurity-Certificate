@@ -49,7 +49,6 @@ This repository highlights learning progression, tool usage, and hands-on practi
 
 ## Weekly Reflection Summary
 Full reflections are available in [Reflection.md](./Reflection.md).  
-> “Pre-launch week confirmed complete system readiness and financial aid approval, establishing a reliable base for the certification journey.”
 
 ---
 
