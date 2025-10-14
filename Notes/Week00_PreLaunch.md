@@ -1,102 +1,128 @@
-# Week 00 – Pre-Launch Setup (October 12–13, 2025)
+# Week 00 - Pre-Launch Preparation
 
-## Overview
-
-Week 00 established the technical and documentation foundation for the **Google Cybersecurity Certificate**.
-The goal was to confirm system readiness, verify VM connectivity, and complete the Coursera Financial Aid process.
+**Dates:** Oct 12-26, 2025  
+**Status:** Prep Phase (Before Official Launch)
 
 ---
 
-## Day 1 – Sunday, October 12, 2025
+## 🎯 Goal
 
-### Steps Taken
-
-1. **Booted** Kali Linux, Windows 10, and Ubuntu Server in VirtualBox.
-2. **Verified** host-only network connectivity between VMs using ping commands.
-3. **Finalized** GitHub repository structure for documentation consistency.
-4. **Organized** local folders to match the v4.8 Foundation format.
+Complete all technical and organizational setup before starting the Google Cybersecurity Certificate on Oct 27, 2025.
 
 ---
 
-### Commands Used
+## ✅ Completed Tasks
 
-ipconfig – Checked host-only adapter IP on Windows
-ifconfig – Verified adapter IPs on Kali and Ubuntu
-ping -c 4 192.168.56.101 – Confirmed cross-VM connectivity
+### Oct 12 (Saturday)
+- [x] Booted and tested all 4 VMs (Kali, Windows 10, Ubuntu, Metasploitable 2)
+- [x] Verified network connectivity with ping tests
+- [x] Created VM snapshots: "Clean_Oct2025"
+- [x] Built folder structure (7 main folders + subfolders)
+- [x] Organized screenshots with professional naming convention
 
----
+**Time spent:** ~90 minutes  
+**Screenshots:** 3 taken
 
-### Errors & Fixes
+### Oct 13 (Sunday)
+- [x] Verified Coursera financial aid application status
+- [x] Financial aid confirmed as submitted
+- [x] Created detailed folder structure for Google Cert repo
+- [x] Added README.md and Reflection.md templates
 
-* **Issue:** Ping from Kali to Windows failed initially.
-  **Fix:** Enabled ICMP Echo Request in Windows Firewall and re-tested successfully.
-
-* **Issue:** Snapshot labels inconsistent across VMs.
-  **Fix:** Renamed all snapshots to Clean_Oct2025.
-
----
-
-### Evidence
-
-* **VMs Successfully Booted:** 
-![VM Boot Success](/Screenshots/2025-10-12_VMs_Succesfully_Booted.png)
-* **Network Connectivity Test:**
-![Ping Test Readiness Check](/Screenshots/2025-10-12_Ping_Test_Readiness_Check.png)
-* **Repository Structure Verified:** 
-![GitHub Repository Review](/Screenshots/2025-10-12_GitHub_Repo_Review.png)
+**Time spent:** ~30 minutes  
+**Screenshots:** 3 taken (Coursera confirmation)
 
 ---
 
-### Reflection
+## 📸 Screenshots Taken
 
-All virtual machines and network connections were verified successfully.
-This confirmed full system readiness for the upcoming Google Cybersecurity Certificate course and established a clean documentation workflow for the project.
-
----
-
-## Day 2 – Monday, October 13, 2025
-
-### Steps Taken
-
-1. Completed Coursera Financial Aid application for the Google Cybersecurity Professional Certificate.
-2. Wrote motivation essay focused on accessibility, professional growth, and long-term career goals.
-3. Verified submission and received confirmation email from Coursera.
+1. `2025-10-12_VMs_Successfully_Booted.png`
+2. `2025-10-12_Ping_Test_Readiness_Check.png`
+3. `2025-10-12_GitHub_Repo_Review.png`
+4. `2025-10-13_Coursera_Financial_Aid_Application_1.png`
+5. `2025-10-13_Coursera_Financial_Aid_Application_2.png`
+6. `2025-10-13_Coursera_Financial_Aid_Application_3.png`
 
 ---
 
-### Evidence
+## 🛠️ Technical Setup Complete
 
-* **Coursera Financial Aid Pending Screenshot #1:**
-![Financial Aid Step 1 – Application Screenshot 1](/Screenshots/2025-10-13_Coursera_Financial_Aid_Application_1.png)
-* **Coursera Financial Aid Pending Screenshot #2:**
-![Financial Aid Step 2 – Application Screenshot 2](/Screenshots/2025-10-13_Coursera_Financial_Aid_Application_2.png)
-* **Coursera Financial Aid Pending Screenshot #3:**
-![Financial Aid Step 3 – Application Screenshot 3](/Screenshots/2025-10-13_Coursera_Financial_Aid_Application_3.png)
-
----
-
-### Reflection
-
-Submitting the financial-aid application marked the formal start of my certification journey.
-All pre-launch tasks are complete, ensuring a fully prepared environment for the course launch on October 27, 2025.
+- [x] VirtualBox installed and working
+- [x] Kali Linux VM operational
+- [x] Windows 10 VM operational
+- [x] Ubuntu Server VM operational
+- [x] Metasploitable 2 VM operational
+- [x] Network connectivity verified between VMs
+- [x] Snapshots created (rollback capability)
+- [x] 50GB+ free disk space confirmed
 
 ---
 
-## End-of-Week Summary
+## 📂 Organizational Setup Complete
 
-### Key Learnings
+- [x] Main folder: `Cybersecurity-Journey/` created
+- [x] 7 phase folders created
+- [x] Google Cert subfolder structure built
+- [x] Professional naming convention established
+- [x] README and Reflection templates added
 
-* Practiced network diagnostics in VirtualBox.
-* Standardized file naming and folder layout for documentation consistency.
-* Completed Coursera Financial Aid application process and essay.
+---
 
-### Challenges
+## 🔐 Account Setup
 
-* Configuring Windows Firewall to allow ICMP traffic.
-* Synchronizing local and GitHub directory structures.
+- [x] Coursera account created
+- [x] Financial aid application submitted (Oct 13)
+- [x] Approval expected: Oct 29, 2025
+- [x] GitHub account ready
+- [x] TryHackMe account created
+- [x] ISC² account created
+- [x] Password manager (Bitwarden) set up
 
-### Next Steps
+---
 
-* Await financial-aid approval (expected ≈ October 29, 2025).
-* Begin Introduction to Cybersecurity module.
-* Continue weekly documentation and reflections every Saturday.
+## 📅 Remaining Prep Tasks (Oct 14-26)
+
+### Week of Oct 14-20
+- [ ] Oct 15: Enable 2FA on all accounts
+- [ ] Oct 16: Block study time on calendar
+- [ ] Oct 16: Create weekly note templates
+- [ ] Oct 17: Create subfolders in all 7 main folders
+- [ ] Oct 19: Linux command practice (optional)
+- [ ] Oct 20: Week 1 review + backup system setup
+
+### Week of Oct 21-27
+- [ ] Oct 21: Watch cybersecurity overview video
+- [ ] Oct 22: TryHackMe platform preview
+- [ ] Oct 23: GitHub profile setup
+- [ ] Oct 24: Study space optimization
+- [ ] Oct 25: Final systems check
+- [ ] Oct 26: Mental preparation + commitment
+- [ ] Oct 27: **LAUNCH DAY** 🚀
+
+---
+
+## 💭 Notes
+
+**What went well:**
+- VM setup was smoother than expected
+- Folder structure feels professional and organized
+- Screenshot naming convention is clean and searchable
+
+**What I learned:**
+- Importance of VM snapshots (can restore if something breaks)
+- Professional file naming makes things easier to find later
+- Organization up front saves time later
+
+**Confidence level going into launch:** 
+
+---
+
+## 🎯 Ready for Launch?
+
+**Technical:** ✅ YES  
+**Organizational:** ✅ YES  
+**Mental:** [Update on Oct 26]
+
+---
+
+*Last updated: Oct 13, 2025*
