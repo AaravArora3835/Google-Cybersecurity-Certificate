@@ -35,15 +35,14 @@ This repository highlights learning progression, tool usage, and hands-on practi
 ---
 
 ## Key Milestone Screenshots
-1. *All virtual machines verified operational for coursework and lab execution.*
+1. *All virtual machines verified operational for coursework and lab execution.*  
 ![VMs Successfully Booted](/Screenshots/2025-10-12_VMs_Succesfully_Booted.png)  
 
-2. *Network connectivity confirmed across all virtual environments.*
+2. *Network connectivity confirmed across all virtual environments.*  
 ![Ping Test Readiness Check](/Screenshots/2025-10-12_Ping_Test_Readiness_Check.png)  
 
-3. *Official approval and submission of the Google Cybersecurity Certificate application.*
+3. *Official approval and submission of the Google Cybersecurity Certificate application.*  
 ![Coursera Financial Aid Confirmation](/Screenshots/2025-10-13_Coursera_Financial_Aid_Application_3.png)  
-
 
 ---
 
