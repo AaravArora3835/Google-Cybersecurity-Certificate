@@ -4,7 +4,7 @@
 
 ---
 
-## 🏆 Biggest Win
+## Biggest Win
 
 *What accomplishment from this phase am I most proud of?*
 
@@ -12,7 +12,7 @@
 
 ---
 
-## ⚙️ Hardest Challenge
+## Hardest Challenge
 
 *What was the most difficult concept or skill to learn?*
 
@@ -24,7 +24,7 @@
 
 ---
 
-## 🚀 Skill That Improved Most
+## Skill That Improved Most
 
 *Which technical skill grew the most during this phase?*
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 🔗 Connection to Next Phase
+## Connection to Next Phase
 
 *How does this phase prepare me for Phase 2 (ISC² CC)?*
 
@@ -44,7 +44,7 @@
 
 ---
 
-## 📊 Stats
+## Stats
 
 - **Total Hours Logged:** 
 - **Courses Completed:** /9
@@ -54,7 +54,7 @@
 
 ---
 
-## 💡 Key Takeaways
+## Key Takeaways
 
 *3-5 main lessons learned from this phase*
 
@@ -66,7 +66,7 @@
 
 ---
 
-## 🎯 What I'd Do Differently
+## What I'd Do Differently
 
 *If I could restart this phase, what would I change?*
 
@@ -74,7 +74,7 @@
 
 ---
 
-## ➡️ Looking Ahead
+## Looking Ahead
 
 *What am I excited about for Phase 2?*
 
