@@ -1,4 +1,4 @@
-# Week 01 - Security Foundations
+# Week 01 - Foundations
 
 **Date Range:** Oct 27 - Nov 2, 2025  
 **Total Hours:** [To be filled]  
