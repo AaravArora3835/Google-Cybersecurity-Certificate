@@ -7,7 +7,7 @@
 
 ---
 
-##Overview
+## Overview
 
 This repository documents my completion of the Google Cybersecurity Professional Certificate through Coursera. The certificate consists of 9 courses covering cybersecurity foundations, Linux, networking, Python, SIEM tools, and incident response.
 
@@ -15,7 +15,7 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 ---
 
-##Courses
+## Courses
 
 - [ ] Course 1: Foundations of Cybersecurity
 - [ ] Course 2: Play It Safe - Manage Security Risks
@@ -29,7 +29,7 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 ---
 
-##Tools Practiced
+## Tools Practiced
 
 - VirtualBox (VM management)
 - Kali Linux (security operations)
@@ -41,7 +41,7 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 ---
 
-##Key Labs Completed
+## Key Labs Completed
 
 *Will be updated as I complete each lab*
 
@@ -51,7 +51,7 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 ---
 
-##Evidence
+## Evidence
 
 All screenshots documenting my progress are stored in `/Screenshots/`
 
@@ -59,7 +59,7 @@ All weekly notes tracking my learning are in `/Notes/`
 
 ---
 
-##Success Metrics
+## Success Metrics
 
 - [x] VMs set up and tested
 - [x] Financial aid approved
@@ -70,7 +70,7 @@ All weekly notes tracking my learning are in `/Notes/`
 
 ---
 
-##Reflection
+## Reflection
 
 *Will be completed at the end of Phase 1 (Jan 31, 2026)*
 
@@ -85,7 +85,7 @@ All weekly notes tracking my learning are in `/Notes/`
 
 ---
 
-##Timeline
+## Timeline
 
 **Start Date:** Oct 27, 2025  
 **Target Completion:** Jan 31, 2026  
