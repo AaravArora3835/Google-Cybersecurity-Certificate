@@ -6,7 +6,7 @@
 
 ---
 
-## 📚 Topics Covered
+##  Topics Covered
 
 ### Module 1.1: [Topic Name]
 **Key Concepts:**
@@ -20,23 +20,23 @@
 
 ---
 
-## 💡 Key Takeaways
+##  Key Takeaways
 1. 
 2. 
 3. 
 
-## 🔧 Hands-On Labs
+##  Hands-On Labs
 **Lab Name:** [Name]  
 **Outcome:** [What you learned/built]  
 **Evidence:** [Screenshot filenames]
 
-## ❓ Questions/Confusion
+## Questions/Confusion
 - 
 
-## 🎯 Next Week Goals
+##  Next Week Goals
 - [ ] 
 - [ ] 
 
 ---
 
-**Status:** ⏳ Starting Oct 27
+**Status:** Starting Oct 27
