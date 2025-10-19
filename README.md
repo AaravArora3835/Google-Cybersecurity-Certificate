@@ -1,7 +1,5 @@
 # Google Cybersecurity Professional Certificate
 
-**Part of:** Aarav Arora Cybersecurity Roadmap v4.6.1  
-**Phase:** Phase 1  
 **Timeline:** Oct 27, 2025 - Jan 31, 2026  
 **Status:** In Progress
 
@@ -93,4 +91,10 @@ All weekly notes tracking my learning are in `/Notes/`
 
 ---
 
-*Last Updated: Oct 13, 2025*
+## Part of Larger Journey
+
+**Full Portfolio:** [Cybersecurity-Portfolio-Hub](https://github.com/AaravArora3835/Cybersecurity-Portfolio-Hub)
+
+**Related Projects:**
+- [SecureScholar Platform](https://github.com/AaravArora3835/SecureScholar-Platform) — Gamified cybersecurity learning platform  
+- [Cybersecurity Homelab](https://github.com/AaravArora3835/Cybersecurity-Homelab) — Virtual machine and network setup  
