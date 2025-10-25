@@ -1,42 +1,37 @@
 # Week 00 - Pre-Launch Preparation
 
-**Dates:** Oct 12-26, 2025  
-**Status:** Prep Phase (Before Official Launch)
+**Dates:** Oct 12-26, 2025 (prep only)  
+**Launch:** Oct 27, 2025  
+**Status:** LAUNCH READY
 
 ---
 
-## 🎯 Goal
+## Goal
 
 Complete all technical and organizational setup before starting the Google Cybersecurity Certificate on Oct 27, 2025.
 
 ---
 
-## ✅ Completed Tasks
+## Completed Tasks
 
-### Oct 12 (Saturday)
+### Oct 12-13 (Sat-Sun)
 - [x] Booted and tested all 4 VMs (Kali, Windows 10, Ubuntu, Metasploitable 2)
 - [x] Verified network connectivity with ping tests
 - [x] Created VM snapshots: "Clean_Oct2025"
 - [x] Built folder structure (7 main folders + subfolders)
 - [x] Organized screenshots with professional naming convention
-
-**Time spent:** ~90 minutes  
-**Screenshots:** 3 taken
-
-### Oct 13 (Sunday)
-- [x] Verified Coursera financial aid application status
-- [x] Financial aid confirmed as submitted
-- [x] Created detailed folder structure for Google Cert repo
+- [x] Financial aid application submitted
+- [x] Created Google Cert repo with v4.8 structure
 - [x] Added README.md and Reflection.md templates
 
-**Time spent:** ~30 minutes  
-**Screenshots:** 3 taken (Coursera confirmation)
+**Time spent:** ~2 hours total  
+**Screenshots:** 6 taken
 
 ---
 
-## 📸 Screenshots Taken
+## Screenshots Taken
 
-1. `2025-10-12_VMs_Successfully_Booted.png`
+1. `2025-10-12_VMs_Succesfully_Booted.png`
 2. `2025-10-12_Ping_Test_Readiness_Check.png`
 3. `2025-10-12_GitHub_Repo_Review.png`
 4. `2025-10-13_Coursera_Financial_Aid_Application_1.png`
@@ -45,7 +40,7 @@ Complete all technical and organizational setup before starting the Google Cyber
 
 ---
 
-## 🛠️ Technical Setup Complete
+## Technical Setup Complete
 
 - [x] VirtualBox installed and working
 - [x] Kali Linux VM operational
@@ -58,21 +53,22 @@ Complete all technical and organizational setup before starting the Google Cyber
 
 ---
 
-## 📂 Organizational Setup Complete
+## Organizational Setup Complete
 
-- [x] Main folder: `Cybersecurity-Journey/` created
-- [x] 7 phase folders created
-- [x] Google Cert subfolder structure built
-- [x] Professional naming convention established
+- [x] Main repo: `Google-Cybersecurity-Certificate/` created
+- [x] 7 folders created (Notes, Labs, Screenshots, Guides, Resources, Troubleshooting, .gitkeep)
+- [x] Professional naming convention established (YYYY-MM-DD_Description.ext)
 - [x] README and Reflection templates added
+- [x] Week01 template prepared
+- [x] .gitignore added to protect repo
 
 ---
 
-## 🔐 Account Setup
+## Account Setup
 
 - [x] Coursera account created
 - [x] Financial aid application submitted (Oct 13)
-- [x] Approval expected: Oct 29, 2025
+- [x] Financial aid approved (Oct 27, 2025)
 - [x] GitHub account ready
 - [x] TryHackMe account created
 - [x] ISC² account created
@@ -80,49 +76,79 @@ Complete all technical and organizational setup before starting the Google Cyber
 
 ---
 
-## 📅 Remaining Prep Tasks (Oct 14-26)
+## Pre-Launch Timeline
 
-### Week of Oct 14-20
-- [ ] Oct 15: Enable 2FA on all accounts
-- [ ] Oct 16: Block study time on calendar
-- [ ] Oct 16: Create weekly note templates
-- [ ] Oct 17: Create subfolders in all 7 main folders
-- [ ] Oct 19: Linux command practice (optional)
-- [ ] Oct 20: Week 1 review + backup system setup
+### Oct 12-13 (Sat-Sun)
+- [x] VM setup complete
+- [x] Repository structure built
+- [x] Financial aid submitted
 
-### Week of Oct 21-27
-- [ ] Oct 21: Watch cybersecurity overview video
-- [ ] Oct 22: TryHackMe platform preview
-- [ ] Oct 23: GitHub profile setup
-- [ ] Oct 24: Study space optimization
-- [ ] Oct 25: Final systems check
-- [ ] Oct 26: Mental preparation + commitment
-- [ ] Oct 27: **LAUNCH DAY** 🚀
+### Oct 14-22 (Mon-Tue)
+- [x] Additional VM testing
+- [x] Documentation review
+
+### Oct 23-26 (Wed-Sat)
+**Decision:** Taking mental break before launch
+- [x] Repository structure finalized
+- [x] VMs ready and snapshotted
+- [x] Financial aid approval confirmed for Oct 27
+- [x] Final documentation cleanup
+
+### Oct 27 (Sunday) — LAUNCH DAY
+- [ ] Start Google Cert Module 1: Foundations
+- [ ] Create Week01 notes file
+- [ ] First study commit to repo
+- [ ] Begin 8-week certification sprint
 
 ---
 
-## 💭 Notes
+## Financial Aid Status
+
+**Submitted:** Oct 13, 2025  
+**Approved:** Oct 27, 2025  
+**Access granted:** Oct 27, 2025  
+**Status:** CONFIRMED
+
+---
+
+## Reflection
 
 **What went well:**
 - VM setup was smoother than expected
 - Folder structure feels professional and organized
 - Screenshot naming convention is clean and searchable
+- Financial aid approved on schedule
+- Taking a break before launch was the right call
 
 **What I learned:**
 - Importance of VM snapshots (can restore if something breaks)
 - Professional file naming makes things easier to find later
 - Organization up front saves time later
+- Pre-planning reduces Week 1 stress
 
-**Confidence level going into launch:** 
+**Confidence level going into launch:** 8/10
+
+**Why 8/10:**
+- Technical setup complete (VMs working perfectly)
+- Folder structure ready
+- Templates created
+- Financial aid approved
+- Roadmap v4.8 locked and ready
+- Slight concern about time management (school + 7.5 hrs/week)
+- First time doing structured self-study at this scale
 
 ---
 
-## 🎯 Ready for Launch?
+## Ready for Launch?
 
-**Technical:** ✅ YES  
-**Organizational:** ✅ YES  
-**Mental:** [Update on Oct 26]
+**Technical:** YES  
+**Organizational:** YES  
+**Financial:** YES  
+**Mental:** YES  
+**Roadmap:** v4.8 LOCKED
 
 ---
 
-*Last updated: Oct 13, 2025*
+**Last updated:** Oct 26, 2025  
+**Status:** LAUNCH READY  
+**Next update:** Oct 27, 2025 (Week 1 begins)
