@@ -1,13 +1,13 @@
 # Google Cybersecurity Professional Certificate
 
-**Timeline:** Oct 27, 2025 - Jan 31, 2026  
-**Status:** In Progress
+**Timeline:** Oct 27 - Dec 22, 2025 (8 weeks)  
+**Status:** Starting Oct 27, 2025
 
 ---
 
 ## Overview
 
-This repository documents my completion of the Google Cybersecurity Professional Certificate through Coursera. The certificate consists of 9 courses covering cybersecurity foundations, Linux, networking, Python, SIEM tools, and incident response.
+This repository documents my completion of the Google Cybersecurity Professional Certificate through Coursera. The certificate consists of 8 courses covering cybersecurity foundations, Linux, networking, Python, SIEM tools, and incident response.
 
 **Goal:** Build foundational cybersecurity knowledge and hands-on skills in a home lab environment.
 
@@ -23,19 +23,24 @@ This repository documents my completion of the Google Cybersecurity Professional
 - [ ] Course 6: Sound the Alarm - Detection and Response
 - [ ] Course 7: Automate Cybersecurity Tasks with Python
 - [ ] Course 8: Put It to Work - Prepare for Cybersecurity Jobs
-- [ ] Course 9: Accelerate Your Job Search with AI
 
 ---
 
-## Tools Practiced
+## Tools & Environment
 
-- VirtualBox (VM management)
-- Kali Linux (security operations)
+**Current Setup (Oct 23, 2025):**
+- VirtualBox 7.0 (4 VMs running)
+- Kali Linux 2024.3
+- Windows 10 Pro
+- Ubuntu Server 22.04
+- Metasploitable 2
+
+**Tools to Learn (Oct-Dec 2025):**
 - Wireshark (packet analysis)
-- Linux CLI (file permissions, logging)
-- SQL (data queries)
+- Linux CLI (permissions, logs)
+- SQL (database queries)
 - Splunk (SIEM basics)
-- Python (security scripting)
+- Python (automation)
 
 ---
 
@@ -60,17 +65,35 @@ All weekly notes tracking my learning are in `/Notes/`
 ## Success Metrics
 
 - [x] VMs set up and tested
-- [x] Financial aid approved
-- [ ] Courses 1-5 completed by Dec 14, 2025
+- [x] Financial aid approved (Oct 27, 2025)
+- [ ] Courses 1-8 completed by Dec 22, 2025
 - [ ] All course quizzes passed (≥80%)
-- [ ] Certificate earned by Jan 31, 2026
+- [ ] Certificate earned by Dec 22, 2025
 - [ ] 5+ labs recreated in home environment
+
+---
+
+## Troubleshooting & Support
+
+**If VMs break:**
+1. Restore from snapshot: "Clean_Oct2025"
+2. Check `/Troubleshooting` folder for fixes
+3. Reddit: r/virtualbox or r/Kali
+
+**If stuck on concepts:**
+1. Google Cert discussion forums
+2. Cybersecurity Discord communities
+3. TryHackMe walkthroughs
+
+**Progress tracking:**
+- Weekly reflections in `/Notes`
+- Overall reflection in `Reflection.md`
 
 ---
 
 ## Reflection
 
-*Will be completed at the end of Phase 1 (Jan 31, 2026)*
+*Will be completed at the end of Phase 1 (Dec 22, 2025)*
 
 **What was hardest?**  
 
@@ -86,7 +109,7 @@ All weekly notes tracking my learning are in `/Notes/`
 ## Timeline
 
 **Start Date:** Oct 27, 2025  
-**Target Completion:** Jan 31, 2026  
+**Target Completion:** Dec 22, 2025  
 **Actual Completion:** *TBD*
 
 ---
@@ -97,4 +120,4 @@ All weekly notes tracking my learning are in `/Notes/`
 
 **Related Projects:**
 - [SecureScholar Platform](https://github.com/AaravArora3835/SecureScholar-Platform) — Gamified cybersecurity learning platform  
-- [Cybersecurity Homelab](https://github.com/AaravArora3835/Cybersecurity-Homelab) — Virtual machine and network setup  
+- [Cybersecurity Homelab](https://github.com/AaravArora3835/Cybersecurity-Homelab) — Virtual machine and network setup
