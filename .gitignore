@@ -1,0 +1,29 @@
+```
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VM files (too large for git)
+*.vdi
+*.vmdk
+*.vbox
+*.ova
+
+# Personal notes
+**/PRIVATE/
+**/private/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+*.swp
+*~
+```
