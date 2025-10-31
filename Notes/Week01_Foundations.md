@@ -1,65 +1,62 @@
-# Week 01 - Foundations
+# Week 01 – Foundations  
 
-**Date Range:** Oct 27 - Nov 2, 2025
-**Total Hours:** 1.0 hr (Day 1)
-**Phase:** Google Cybersecurity Certificate
-
----
-
-## Topics Covered
-
-### Module 1.1: *Welcome to the Exciting World of Cybersecurity*
-
-**Key Concepts:**
-
-* Cybersecurity protects systems, networks, and data from digital attacks.
-* A **cybersecurity analyst** detects, investigates, and responds to threats.
-* Security helps ensure **confidentiality, integrity, and availability** (CIA Triad).
-* Cybersecurity affects every industry and role—from small businesses to governments.
-
-**Important Terms:**
-
-* **CIA Triad:** Confidentiality (only authorized access), Integrity (data accuracy), Availability (systems accessible when needed).
-* **Threat:** Any potential danger that exploits a vulnerability.
-* **Vulnerability:** A weakness that can be exploited to cause harm.
-* **Risk:** The likelihood that a threat will exploit a vulnerability.
-
-**Screenshots:**
-
-* `2025-10-27_Module1_Started.png` — Coursera dashboard showing Course 1 started
-* `2025-10-27_CIA_Triad_Notes.png` — Notes diagram of confidentiality/integrity/availability
+**Date Range:** Oct 27 – Nov 2, 2025  
+**Total Hours:** ~2 hrs (Day 3 – Module 1 Complete)  
+**Phase:** Google Cybersecurity Certificate  
 
 ---
 
-## Key Takeaways
+## Topics Covered  
 
-1. Cybersecurity analysts are the “first responders” to digital incidents.
-2. The CIA Triad underpins nearly every security control or policy.
-3. Cybersecurity is both technical (tools) and human (policy/behavior).
+### 2025-10-29 — Module 1: *Welcome to the Exciting World of Cybersecurity*  
 
----
+**Key Concepts**  
+- Cybersecurity focuses on defending systems, networks, and data from unauthorized access, attacks, and damage.  
+- The **CIA Triad** (Confidentiality, Integrity, Availability) is the foundation for all security controls.  
+- A **cybersecurity analyst** detects, investigates, and responds to security incidents to reduce risk.  
+- Security includes both technical controls (firewalls, encryption) and human factors (training, awareness).  
+- Protecting digital assets requires policy, tools, and consistent monitoring of threats and vulnerabilities.  
 
-## Hands-On Labs
+**Important Terms**  
+- **Confidentiality:** Ensures only authorized users can view data.  
+- **Integrity:** Guarantees data accuracy and prevents tampering.  
+- **Availability:** Keeps systems and data accessible when needed.  
+- **Threat Actor:** An individual or group attempting to exploit a system.  
+- **Risk:** The chance that a vulnerability will be exploited by a threat.  
 
-**Lab Name:** “Welcome to Cybersecurity – Coursera Intro Activity”
-**Outcome:** Explored course overview, analyst job examples, and key security concepts.
-**Evidence:**
-
-* `2025-10-27_Module1_Started.png`
-
----
-
-## Questions/Confusion
-
-* How will the CIA Triad map to real tools later (e.g., SIEM or firewalls)?
-
----
-
-## Next Week Goals
-
-* [ ] Finish Course 1 Modules 2–3 (evolution + risk & vulnerabilities).
-* [ ] Write and scaffold SecureScholar Module 2 Lesson 1.
+**Screenshots**  
+- `2025-10-27_Module1_Started.png` — initial Coursera dashboard showing Course 1 launch.  
+- `2025-10-29_Module1_Complete.png` — quiz and progress page confirming Module 1 completed.  
 
 ---
 
-**Status:** Completed Day 1 – Course 1 Module 1 started; repo initialized and notes created.
+## Key Takeaways  
+1. The CIA Triad defines how every security control is evaluated.  
+2. Analysts must understand both technical defenses and human behavior.  
+3. Communication and documentation are critical in incident response.  
+
+---
+
+## Hands-On Labs  
+**Lab Name:** No formal lab in Module 1  
+**Activity Type:** Guided learning and practice quiz  
+**Outcome:** Completed Module 1 knowledge checks and explored analyst responsibilities through scenario examples, but no technical environment was used.  
+**Evidence:**  
+- `2025-10-29_Module1_Complete.png`  
+
+---
+
+## Questions / Confusion  
+- How does each pillar of the CIA Triad translate into specific tools (e.g., which tools support Integrity vs Availability)?  
+- When incident logs are analyzed, how do analysts measure “Integrity” violations quantitatively?  
+
+---
+
+## Next Steps  
+- Start **Module 2 – The Evolution of Cybersecurity.**  
+- Capture timeline screenshot (`2025-10-30_Module2_Timeline.png`).  
+- Prepare notes on milestone events and the development of cybersecurity roles.  
+
+---
+
+**Status:** Completed Module 1 — core concepts mastered and practice quiz passed. Ready to move into Module 2 timeline content on Thursday.  
