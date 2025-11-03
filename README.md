@@ -28,20 +28,23 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 ## Tools & Environment
 
-**Current Setup (Oct 23, 2025):**
-- VirtualBox 7.0 (4 VMs running)
-- Kali Linux 2024.3
-- Windows 10 Pro
-- Ubuntu Server 22.04
-- Metasploitable 2
+**Lab Environment Setup:**
+- **Dual-boot Ubuntu 24.04** on MacBook Pro 2019 ([complete setup guide](https://github.com/AaravArora3835/Ubuntu-DualBoot-MacT2))
+  - Native Linux for security tools (Wireshark, tcpdump, Nmap, Metasploit)
+  - Supports Coursera hands-on labs without VM performance overhead
+  - T2-chip-compatible configuration fully documented
+- **VirtualBox 7.0** with 4 VMs:
+  - Kali Linux 2024.3
+  - Windows 10 Pro
+  - Ubuntu Server 22.04
+  - Metasploitable 2
 
 **Tools to Learn (Oct-Dec 2025):**
 - Wireshark (packet analysis)
-- Linux CLI (permissions, logs)
+- Linux CLI (permissions, logs, bash scripting)
 - SQL (database queries)
 - Splunk (SIEM basics)
 - Python (automation)
-
 ---
 
 ## Key Labs Completed
