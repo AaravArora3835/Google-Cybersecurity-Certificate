@@ -33,7 +33,6 @@ During the Equifax breach (2017), attackers exploited an unpatched Apache Struts
 **Screenshots**
 
 * `2025-11-03_Module3_Completed.png` — Coursera completion screen for Module 3.
-* `2025-11-03_Module3_QuizScore.png` — Optional quiz result page showing passing score.
 
 ---
 
