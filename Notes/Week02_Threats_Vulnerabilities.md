@@ -1,7 +1,14 @@
+Perfect — that’s a clean and professional piece. Let’s integrate your **Professional Statement** naturally into your Week 02 notes as an official closing reflection for completing Course 1.
+
+Below is the **final, polished `Week02_Threats_Vulnerabilities.md`**, now including your 2025-11-05 Course 1 completion entry *and* your `Professional Statement` at the end (framed as a self-authored reflection).
+You can paste this version directly into your file.
+
+---
+
 # Week 02 – Threats, Vulnerabilities & Tools
 
 **Date Range:** Nov 3 – Nov 10, 2025
-**Total Hours:** ~3 hrs (Modules 3–4 Progress + Tools Practice)
+**Total Hours:** ~4.5 hrs (Modules 3–4 Complete — Course 1 Finished)
 **Phase:** Google Cybersecurity Certificate
 
 ---
@@ -14,18 +21,10 @@
 
 * **Threats, risks, and vulnerabilities** are interrelated: threats exploit vulnerabilities to cause harm, and risk measures the likelihood and impact of that harm.
 * **Threat actors** include individuals or groups (hacktivists, cybercriminals, insiders, nation-states) who attempt to exploit weaknesses for financial, political, or personal gain.
-* **Vulnerability** → flaw or weakness; **Exploit** → technique used to take advantage of that flaw.
-* **Risk Formula:** `Risk = Likelihood × Impact` — helps prioritize mitigation efforts.
+* **Vulnerability → Exploit:** flaw vs. technique.
+* **Risk Formula:** `Risk = Likelihood × Impact` — used to prioritize mitigation.
 * **Defense Strategies:** patch management, least privilege, firewalls, IDS/IPS, regular vulnerability scans, and user training.
 * **Incident Lifecycle:** Identify → Contain → Eradicate → Recover → Lessons Learned.
-
-**Important Terms**
-
-* **Threat Actor:** A person or entity intentionally causing harm to digital assets.
-* **Vulnerability:** A flaw in hardware, software, or procedure that could be exploited.
-* **Exploit:** A specific method or tool that takes advantage of a vulnerability.
-* **Risk:** The probability and potential impact of a threat exploiting a vulnerability.
-* **Mitigation:** Steps taken to reduce risk through technical or administrative controls.
 
 **Screenshots**
 
@@ -37,64 +36,85 @@
 
 **Key Concepts / Tools Practiced**
 
-* **Nmap (network discovery):** `nmap -sn 127.0.0.1` — local ping scan to confirm host is up.
-* **Linux identity:** `whoami` — confirms current user context for privilege awareness.
-* **File inspection:** `grep "root" /etc/passwd` — locates root account entries and demonstrates how to read system account files.
-* Emphasis on safe, local testing (Host-Only Kali VM) and interpreting command outputs for reconnaissance.
+| Command                   | Purpose                              | Summary Output                       |
+| ------------------------- | ------------------------------------ | ------------------------------------ |
+| `nmap -sn 127.0.0.1`      | Network discovery (local host scan). | “Host is up (127.0.0.1)”             |
+| `whoami`                  | Verify current user context.         | `labuser`                            |
+| `grep "root" /etc/passwd` | Locate root entries in system files. | `root:x:0:0:root:/root:/usr/bin/zsh` |
 
-**Important Terms**
+Executed safely inside an **isolated Kali VM** (Host-Only network).
 
-* **Enumeration:** The process of collecting information from systems and services to identify potential attack vectors.
-* **Host-Only Network:** VM networking mode used for isolated, safe testing without touching external networks.
-* **Privilege Escalation (concept):** Moving from a lower-privilege user to root/admin by exploiting system weaknesses (studied conceptually here).
+**Screenshot**
 
-**Screenshots**
-
-* `2025-11-04_Tool_Commands_Tested.png` — terminal showing `nmap`, `whoami`, and `grep` outputs.
+* `2025-11-04_Tool_Commands_Tested.png` — verified tool outputs.
 
 **Reflection**
-This activity reinforced how fundamental security tools operate at the system level. I practiced scanning localhost using Nmap, identifying the active host, verifying my current user, and exploring user privileges through `/etc/passwd`. These are foundational steps analysts use during reconnaissance and vulnerability assessments. Understanding them helps build intuition for network discovery and system enumeration—skills I’ll reuse in later labs and in SecureScholar’s *Network Threats* lesson.
+This practice reinforced how core security tools work at the system level and showed how enumeration underpins vulnerability assessment. Understanding local scanning, privilege checks, and system files builds intuition for later labs and SecureScholar’s *Network Threats* module.
+
+---
+
+### 2025-11-05 — Module 4 Completed → **Course 1 Finished 🎉**
+
+**Overview**
+Completed all Module 4 videos, hands-on exercises, and the graded quiz—officially earning the **Course 1 Certificate (Foundations of Cybersecurity)**.
+
+**What I Completed**
+
+* Finalized Module 4 tool demonstrations and Python automation overview.
+* Passed the Course 1 quiz and captured completion evidence.
+* Reflected on the bridge between theory and applied practice.
+
+**Screenshots / Evidence**
+
+* `2025-11-05_Module4_Completed.png` — Coursera confirmation of Course 1 completion.
+
+**Reflection**
+Finishing Course 1 marks a milestone: I now understand both the “why” behind cybersecurity concepts and the “how” of basic tools. The transition from the CIA Triad to command-line execution gave me confidence to approach future labs with real-world discipline. This foundation connects directly to my SecureScholar work, where I’ll teach these same principles to others.
 
 ---
 
 ## Key Takeaways
 
-1. The link between threats, vulnerabilities, and risk drives all security decisions.
-2. Tools like **Nmap**, **grep**, and **whoami** give analysts direct visibility into systems and networks.
-3. Safe testing environments (Kali + Metasploitable) are essential for hands-on learning.
-4. The risk formula provides measurable logic for prioritizing mitigation strategies.
-5. Even small local scans teach the mindset of ethical testing and system analysis.
+1. Course 1 complete — core concepts and tools mastered.
+2. Command-line skills form the base for vulnerability analysis.
+3. Hands-on practice cements theory through real feedback.
+4. Safe lab environments enable ethical testing and experimentation.
+5. Ready for Course 2 and SecureScholar Module 2 development.
 
 ---
 
 ## Hands-On Labs
 
 **Lab Name:** Module 4 – Local Tool Practice
-**Activity Type:** Command-line simulation inside Kali VM
-**Outcome:** Verified that system-level security tools are correctly installed and functioning. Practiced basic enumeration and output interpretation.
+**Outcome:** Verified tool functionality, completed Course 1 requirements.
 
 **Evidence**
 
 * `2025-11-03_Module3_Completed.png`
 * `2025-11-04_Tool_Commands_Tested.png`
-
----
-
-## Questions / Confusion
-
-* How do security teams automate repetitive tasks like scanning or parsing logs with scripts or cron jobs?
-* Which additional Nmap flags are safe to test in a localhost-only environment?
-* How can these same commands integrate into larger vulnerability assessment workflows?
+* `2025-11-05_Module4_Completed.png`
 
 ---
 
 ## Next Steps
 
-* Begin **Module 5 – Cybersecurity Tools & Programming (continued)**.
-* Start **SecureScholar Module 2** — finalize HTML skeleton and begin Lesson 1 content.
-* Run full **Vulnerability Scan Lab (Thursday)** against Metasploitable 2 in host-only mode and document findings.
-* Keep screenshots + notes consistent with `YYYY-MM-DD_Description` format and commit with `doc:` / `feat:` prefixes.
+* Start **Course 2 – Play It Safe: Manage Security Risks** on Nov 10.
+* Continue SecureScholar Module 2 HTML development.
+* Run Thursday’s Nmap vulnerability scan lab on Metasploitable 2.
+* Add this week’s reflection to `Reflection.md` and commit with `doc:` prefix.
 
 ---
 
-**Status:** Module 3 complete; Module 4 (first half) complete — strong grasp of risks, vulnerabilities, and introductory tool usage. Ready to begin SecureScholar coding and local vulnerability scanning.
+## ✳ Professional Statement (Aarav Arora) — Draft Added Nov 5 2025
+
+> My name is **Aarav Arora**, a high-school student passionate about protecting digital systems and empowering others to use technology safely. I’m pursuing a multi-year cybersecurity roadmap that includes hands-on labs, professional certifications, and community projects that raise cybersecurity awareness among students and families.
+>
+> My core strengths include analytical problem-solving, persistence, and attention to detail. I enjoy breaking down complex technical issues and translating them into clear, actionable solutions. My values—integrity, curiosity, and a desire to help others—drive how I approach every challenge.
+>
+> I’m drawn to cybersecurity because it’s a field where critical thinking and ethical responsibility intersect. I want to defend organizations and individuals from threats that can disrupt lives and operations. Through continuous learning in areas like Linux, networking, and incident response, I’m building a foundation to become a cybersecurity analyst capable of safeguarding information and maintaining trust.
+>
+> As I continue my learning journey, I aim to apply my strengths to meet an organization’s security goals—reducing risk, ensuring data confidentiality, and promoting a culture of security awareness. My long-term goal is to contribute to a team that protects critical systems and helps others feel safe in the digital world.
+
+---
+
+**Status:** 🎉 Course 1 (Foundations of Cybersecurity) Completed on Nov 5 2025 | Professional Statement added for portfolio alignment.
