@@ -33,11 +33,9 @@ This repository documents my completion of the Google Cybersecurity Professional
   - Native Linux for security tools (Wireshark, tcpdump, Nmap, Metasploit)
   - Supports Coursera hands-on labs without VM performance overhead
   - T2-chip-compatible configuration fully documented
-- **VirtualBox 7.0** with 4 VMs:
+- **VirtualBox 7.0** with 2 VMs:
   - Kali Linux 2024.3
   - Windows 10 Pro
-  - Ubuntu Server 22.04
-  - Metasploitable 2
 
 **Tools to Learn (Oct-Dec 2025):**
 - Wireshark (packet analysis)
@@ -51,7 +49,7 @@ This repository documents my completion of the Google Cybersecurity Professional
 
 *Will be updated as I complete each lab*
 
-1. 
+1. Vulnerability Scan
 2. 
 3. 
 
@@ -116,10 +114,6 @@ All weekly notes tracking my learning are in `/Notes/`
 **Actual Completion:** *TBD*
 
 ---
-
-## Part of Larger Journey
-
-**Full Portfolio:** [Cybersecurity-Portfolio-Hub](https://github.com/AaravArora3835/Cybersecurity-Portfolio-Hub)
 
 **Related Projects:**
 - [SecureScholar Platform](https://github.com/AaravArora3835/SecureScholar-Platform) — Gamified cybersecurity learning platform  
