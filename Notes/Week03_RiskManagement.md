@@ -1,25 +1,30 @@
-### 2025-11-10 — Course 2 Modules 1 & 2 : Risk Management Foundations
+# Week 03 — Course 2: Risk Management Foundations
 
+**Date Range:** Nov 10 – Nov 16, 2025  
 **Status:** ✅ Completed
-**Modules:**
 
+---
+
+## 2025-11-10 — Course 2 Modules 1 & 2: Risk Management Foundations
+
+**Status:** ✅ Completed  
+**Modules:**
 1. Understanding Risk Management Concepts
 2. Identifying and Assessing Risks
 
 ---
 
-#### **Overview**
+### **Overview**
 
 Began *Course 2 – Play It Safe: Manage Security Risks* on Coursera.
 Focused on how cybersecurity professionals define, categorize, and evaluate risk using structured frameworks such as **NIST SP 800-30** and the **Risk Management Framework (RMF)**.
-These modules connect the abstract idea of “risk” with measurable processes and real-world examples.
+These modules connect the abstract idea of "risk" with measurable processes and real-world examples.
 
 ---
 
-#### **Key Concepts**
+### **Key Concepts**
 
 **Risk Formula:**
-
 > Risk = Likelihood × Impact
 
 **Terminology**
@@ -32,14 +37,13 @@ These modules connect the abstract idea of “risk” with measurable processes 
 | **Control**       | Safeguard reducing likelihood or impact                                      | MFA, security policy, firewall             |
 
 **Control Types**
-
 * **Administrative:** Policies, training, background checks
 * **Technical:** Firewalls, encryption, access controls
 * **Physical:** Locks, cameras, secure facilities
 
 ---
 
-#### **NIST SP 800-30 Process**
+### **NIST SP 800-30 Process**
 
 1. Identify assets and system boundaries
 2. Identify threats and vulnerabilities
@@ -53,13 +57,13 @@ Assets → Threats → Vulnerabilities → Risk → Controls
 ```
 
 **Example:**
-A school’s Wi-Fi network (asset) uses default passwords (vulnerability).
+A school's Wi-Fi network (asset) uses default passwords (vulnerability).
 If a student runs a network-sniffing tool (threat), the likelihood = high, impact = moderate, producing a medium-to-high risk.
 Applying WPA3 + unique passphrase (control) reduces the risk.
 
 ---
 
-#### **Risk Management Framework (RMF)**
+### **Risk Management Framework (RMF)**
 
 The NIST RMF organizes risk work into seven recurring phases:
 
@@ -71,12 +75,9 @@ The NIST RMF organizes risk work into seven recurring phases:
 6. **Authorize** – Approve operation and formally accept risk
 7. **Monitor** – Continuously track and update as threats evolve
 
-**Evidence:**
-`Screenshots/2025-11-10_RiskFrameworks.png` — Coursera slide showing the seven RMF steps.
-
 ---
 
-#### **CIS Controls (Practical Perspective)**
+### **CIS Controls (Practical Perspective)**
 
 Reviewed **CIS v8** to map enterprise controls to personal digital safety:
 
@@ -86,20 +87,59 @@ Reviewed **CIS v8** to map enterprise controls to personal digital safety:
 
 ---
 
-#### **Guardians Issue #1 Outline Draft**
+## 2025-11-16 — Course 2 Modules 3 & 4: Security Controls & Incident Response
 
-**Title:** *Play It Safe at Home — 3 Ways to Lower Your Digital Risk*
-
-1. Why “Risk” isn’t a Scary Word (L × I in plain English)
-2. Three Common Threats (Phishing, Password Reuse, Weak Wi-Fi)
-3. Simple Controls (Password Managers, 2FA, Updates)
-   *File:* `Guardians/2025-11-12_Issue01_PlayItSafe.md`
+**Status:** ✅ Completed  
+**Modules:**
+3. Security Frameworks and Controls
+4. Incident Response and Risk Mitigation
 
 ---
 
-#### **Reflection**
+### **Overview**
 
-Today’s lessons reframed risk as a measurable process rather than intuition.
+Completed remaining modules covering security frameworks (NIST CSF, OWASP), the CIA triad, risk mitigation strategies, and the incident response lifecycle. Applied concepts through the Botium Toys security audit capstone project.
+
+---
+
+### **Key Concepts**
+
+**CIA Triad:**
+* **Confidentiality:** Only authorized users access data
+* **Integrity:** Data remains accurate and unaltered  
+* **Availability:** Systems remain accessible when needed
+
+**Risk Mitigation Strategies:**
+* **Acceptance** — Acknowledge risk, take no action (low likelihood × low impact)
+* **Avoidance** — Eliminate the activity causing risk
+* **Transference** — Shift risk to another party (insurance, outsourcing)
+* **Mitigation** — Implement controls to reduce likelihood or impact
+
+**Incident Response Lifecycle:**
+1. Preparation
+2. Detection & Analysis
+3. Containment
+4. Eradication
+5. Recovery
+6. Post-Incident Activity (lessons learned)
+
+---
+
+### **Reflection**
+
+Today's lessons reframed risk as a measurable process rather than intuition.
 Understanding how *likelihood* and *impact* interact made cybersecurity feel analytical instead of abstract.
 The RMF clarified that security is continuous — each stage feeds the next.
-Translating those ideas into the Guardians outline proved I can teach them simply, a key step toward my outreach goals.
+
+Course 2 built directly on Course 1's foundations, showing how the CIA Triad and threat concepts translate into structured risk management frameworks that organizations use daily.
+
+---
+
+### **Evidence**
+
+* `Screenshots/2025-11-08_Course2_Completed.png` — Coursera completion certificate
+
+---
+
+**Status:** Course 2 Complete ✅  
+**Next:** Course 3 – Connect and Protect: Networks and Network Security
