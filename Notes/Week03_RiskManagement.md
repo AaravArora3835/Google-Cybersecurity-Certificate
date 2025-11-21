@@ -87,7 +87,7 @@ Reviewed **CIS v8** to map enterprise controls to personal digital safety:
 
 ---
 
-## 2025-11-16 — Course 2 Modules 3 & 4: Security Controls & Incident Response
+## 2025-11-10 — Course 2 Modules 3 & 4: Security Controls & Incident Response
 
 **Status:** ✅ Completed  
 **Modules:**
@@ -137,7 +137,7 @@ Course 2 built directly on Course 1's foundations, showing how the CIA Triad and
 
 ### **Evidence**
 
-* `Screenshots/2025-11-08_Course2_Completed.png` — Coursera completion certificate
+* `Screenshots/2025-11-10_Course2_Completed.png` — Coursera completion certificate
 
 ---
 
