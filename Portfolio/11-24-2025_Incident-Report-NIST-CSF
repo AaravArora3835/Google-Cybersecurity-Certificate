@@ -1,0 +1,189 @@
+**INCIDENT REPORT ANALYSIS — DDoS Attack (ICMP Flood)**
+
+**Role:** Cybersecurity Analyst
+**Organization:** Multimedia agency (web design, graphics, social media marketing)
+**Incident:** Distributed Denial of Service (DDoS) attack via ICMP flood
+**Impact Duration:** ~2 hours
+**Affected Environment:** Internal network and network services
+
+---
+
+# **1. Summary of the Security Event**
+
+The organization experienced a **Distributed Denial of Service (DDoS) attack**, where a malicious actor sent a high-volume **ICMP flood** through an **unconfigured firewall**, overwhelming the internal network. As a result, normal internal network traffic could not reach essential systems, causing an outage of critical business services for approximately two hours. The incident response team contained the attack by blocking incoming ICMP packets and restoring essential services.
+
+---
+
+# **2. NIST CSF Analysis**
+
+---
+
+# **IDENTIFY — Security Risks and Root Causes**
+
+### **What happened**
+
+* A malicious actor exploited an **unconfigured firewall rule** that allowed unrestricted ICMP traffic.
+* Attackers sent a large volume of **ICMP echo requests (PING flood)**, overwhelming network bandwidth.
+
+### **Assets impacted**
+
+* Internal network infrastructure
+* Routers and switching fabric
+* Critical internal services (DNS, DHCP, internal applications)
+* Employee productivity and business operations
+
+### **Identified risks**
+
+* Lack of firewall hardening and rule auditing
+* No rate-limiting for ICMP traffic
+* Insufficient monitoring for abnormal network patterns
+* Lack of automated alerting for sudden traffic spikes
+
+---
+
+# **PROTECT — How to Strengthen Defenses**
+
+### **Recommended protection measures**
+
+1. **Firewall Rule Hardening**
+
+   * Limit the rate of incoming ICMP packets.
+   * Block ICMP traffic from external networks unless explicitly needed.
+   * Enable source IP validation to prevent spoofed packets.
+
+2. **Network Segmentation**
+
+   * Separate critical internal systems from public-facing systems.
+   * Use VLANs to isolate sensitive assets and contain attacks.
+
+3. **Access Control Reviews**
+
+   * Regularly audit firewall configurations.
+   * Remove unused or default rules.
+   * Follow the principle of least privilege (PoLP).
+
+4. **Employee Awareness**
+
+   * Train staff on reporting service issues immediately.
+   * Educate IT teams on secure firewall configuration practices.
+
+5. **Baseline Performance Profiles**
+
+   * Document normal network traffic patterns.
+   * Use baselines to spot deviations earlier.
+
+---
+
+# **DETECT — Methods to Identify Future Incidents**
+
+### **Detection improvements**
+
+1. **Network Monitoring Software**
+
+   * Monitor bandwidth, traffic volume, and protocol distribution in real time.
+   * Detect abnormal increases in ICMP traffic.
+
+2. **IDS/IPS Deployment**
+
+   * Identify suspicious ICMP patterns such as:
+
+     * Packet bursts
+     * Spoofed IPs
+     * Unusual TTL values
+   * Automatically block or throttle malicious traffic.
+
+3. **Anomaly-Based Alerts**
+
+   * Set alerts for unusual packet rates.
+   * Trigger warnings when ICMP traffic exceeds normal thresholds.
+
+4. **Log Correlation Systems**
+
+   * Use SIEM tools to correlate firewall, router, and system logs.
+
+---
+
+# **RESPOND — Immediate Response Actions**
+
+### **Actions during the incident**
+
+* Blocked all incoming ICMP packets at the firewall.
+* Shut down non-critical network services to preserve bandwidth.
+* Restored critical internal services first.
+* Identified the misconfigured firewall rule.
+
+### **Response plan for future incidents**
+
+1. **Incident Identification**
+
+   * SOC or monitoring team receives alert.
+   * Validate the anomaly (traffic spike, service outage).
+
+2. **Containment**
+
+   * Enable ICMP filtering and rate limiting.
+   * Apply temporary ACLs to block offending IP addresses.
+
+3. **Analysis**
+
+   * Review firewall logs for attack vectors.
+   * Confirm whether traffic includes spoofed IPs.
+   * Inspect IDS/IPS alerts.
+
+4. **Communication**
+
+   * Notify IT leadership and senior management.
+   * Document timestamps, actions taken, and impacted services.
+
+5. **Eradication**
+
+   * Identify any additional misconfigurations.
+   * Harden all network gateways.
+
+---
+
+# **RECOVER — Restoring Normal Operations**
+
+### **Recovery actions**
+
+* Restarted affected network services.
+* Verified system stability and bandwidth availability.
+* Validated that business-critical systems were fully functional.
+
+### **Future recovery improvements**
+
+1. **Disaster Recovery Playbooks**
+
+   * Clear runbooks for DDoS events.
+   * Step-by-step restoration procedures.
+
+2. **System Backups & Redundancy**
+
+   * Maintain redundant network paths or failover systems.
+   * Use load balancers or traffic scrubbing services if applicable.
+
+3. **Post-Incident Review**
+
+   * Document lessons learned.
+   * Update firewall and IDS/IPS rules.
+   * Revise monitoring thresholds.
+
+4. **Stakeholder Communication**
+
+   * Provide post-incident summaries to leadership.
+   * Maintain transparency about what improved.
+
+---
+
+# **Final Recommendations**
+
+To prevent similar attacks, the organization must:
+
+* Conduct regular **firewall audits**
+* Implement **ICMP rate limiting** and **source IP validation**
+* Deploy **network monitoring tools** and **IDS/IPS**
+* Maintain documented **response playbooks**
+* Continuously evaluate and improve the security posture
+
+This structured approach aligns the company with the **NIST CSF** and strengthens both resilience and readiness for future cybersecurity events.
+
