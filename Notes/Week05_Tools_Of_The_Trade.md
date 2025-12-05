@@ -6,94 +6,133 @@
 
 ---
 
-## **Topics Covered (Today — Dec 3)**
+## **Topics Covered (Today — Dec 4)**
 
-### **Module 1: Introduction to Linux & Assets**
+### **Module 2: The Linux Operating System**
 
 **Key Concepts:**
 
-* Purpose of Linux in cybersecurity
-* File system hierarchy (`/home`, `/etc`, `/var`)
-* Absolute vs relative paths
-* Basic navigation commands
-* Why Linux is used in security operations
-* Importance of assets, vulnerabilities, and threats
-* Relationship between asset value and security posture
+* Linux file permissions: read, write, execute
+* Ownership structure: user, group, others
+* File system roles and directory responsibilities
+* Why permissions matter for system hardening
+* Relationship between users, groups, and privilege boundaries
 
 **Important Terms:**
 
-* **CLI:** Command Line Interface
-* **Permissions:** Read, Write, Execute
-* **Asset:** Any valuable resource to protect
-* **Vulnerability:** Weakness an attacker can exploit
-* **Threat:** Anything that can exploit a vulnerability
+* **Owner:** The user who controls the file
+* **Group:** A set of users with shared permissions
+* **Permissions:** Defines what actions are allowed
+* **Privilege:** Level of access a user holds
+* **Access Control:** Mechanism controlling allowed actions
 
 ---
 
-## **Labs Completed**
+### **Module 3: Linux Commands in the Bash Shell**
 
-### **Linux Basics Lab (Dec 3)**
+**Key Concepts:**
 
-**Commands Practiced:**
+* Navigation: `pwd`, `cd`, `ls`
+* Directory management: `mkdir`, moving between levels
+* File operations: `touch`, `cp`, `mv`, `rm`, `cat`
+* Viewing permissions with `ls -l`
+* User identity and sudo behavior
+* How Bash is used in cybersecurity workflows
 
-* `pwd` — show current directory
-* `ls` — list files
-* `cd` — change directory
-* `mkdir` — create folder
-* `touch` — create a new file
-* `chmod` — change permissions
-* `sudo` — execute a command with elevated privilege
-* `whoami` — current logged-in user
+**Important Terms:**
+
+* **Shell:** Interface that interprets commands
+* **Bash:** Common Linux shell used for scripting and operations
+* **Home Directory:** User-specific workspace
+* **Sudo:** Temporary privilege elevation
+
+---
+
+## **Labs Completed (Dec 4)**
+
+### **Linux Permissions Lab**
+
+**Skills Practiced:**
+
+* Changing permissions with `chmod`
+* Understanding numeric vs symbolic modes
+* Using `chown` to change ownership
+* Verifying access as another user
+* Testing permission boundaries with `su -`
 
 **Key Takeaways:**
 
-* Linux is deterministic — everything is a file
-* Permissions matter for security and system integrity
-* Understanding navigation is critical before learning exploitation
+* Permission changes directly affect what another user can do.
+* Ownership is separate from file permissions.
+* Correct permission configuration is foundational for secure systems.
+
+---
+
+### **Linux Commands Lab**
+
+**Skills Practiced:**
+
+* Navigating directories
+* Creating and managing files
+* Copying, moving, and deleting data
+* Reading file contents
+* Using `sudo` and observing permission restrictions
+
+**Key Takeaways:**
+
+* Bash navigation is essential for cybersecurity workflows.
+* File operations must be understood before exploiting or defending systems.
+* Restricted access to `/root` illustrates privilege security in action.
 
 ---
 
 ## **Key Takeaways (Today)**
 
-1. Linux navigation commands are essential for real-world cybersecurity work.
-2. The Linux lab matched real scenarios (navigating logs, modifying permissions).
-3. Asset → Threat → Vulnerability model connects directly to security tools.
-4. Module 1 is a foundation for later SQL + exploitation in the course.
-5. VulnForge tool upgrade today helps automate real CVE workflows.
+1. Permission management is a core component of Linux system security.
+2. Understanding default permissions and ownership helps identify misconfigurations.
+3. Bash command fluency makes future labs (SQL, DVWA, CVEs) more efficient.
+4. Both labs reinforced real-world system administration skills.
+5. Course content is beginning to shift from fundamentals to exploitation preparation.
 
 ---
 
 ## **Hands-On Work (Today)**
 
-### **VulnForge Tool Update**
+### **Lab Files Added:**
 
-**Improvement Added:**
+* `2025-12-04_Linux_Permissions_Lab.md`
+* `2025-12-04_Linux_Commands_Lab.md`
 
-* Added `source_url` field to `new_case.py`
-* Tested the tool successfully
-* Confirmed new metadata appears in notes.md
+### **Evidence Added:**
 
-**Why This Matters:**
-This automation saves time when creating 12+ CVE cases later and keeps every case consistent.
+* Navigation, permissions, and file-operation screenshots
+* Ownership and privilege test results
+
+### **Why This Matters:**
+
+These labs create the practical foundation for SQL Injection analysis, privilege escalation, and CVE reproduction in VulnForge.
 
 ---
 
 ## **Questions / Confusion**
 
-* How advanced will SQL get in this course?
-* Should I practice SQL outside the labs (DVWA / TryHackMe)?
+* Is symbolic or numeric permission notation better for real-world use?
+* When does a cybersecurity analyst need to modify group permissions vs user permissions?
 
 ---
 
-## **Next Day Goals (Thu Dec 4)**
+## **Next Day Goals (Fri Dec 5)**
 
-* Complete Linux Permissions Lab
-* Complete SQL Basics Lab
-* Add both lab files in `/Labs`
-* Add Thursday notes to Week05 file
+* Complete SQL Intermediate Lab
+* Finish Module 4 (SQLi, XSS, CSRF)
+* Write notes for Module 4
+* Add lab file: `2025-12-05_SQL_Intermediate_Lab.md`
+* Prepare environment for VulnForge CVE #1 (SQL Injection)
 
 ---
 
-## **Reflection (Will fill on Dec 7)**
+## **Reflection (Will complete on Dec 7)**
 
-*(Leave blank until Sunday)*
+*(Leave blank until Sunday.)*
+
+---
