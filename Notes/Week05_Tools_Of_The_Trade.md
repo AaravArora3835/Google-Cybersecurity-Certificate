@@ -6,27 +6,20 @@
 
 ---
 
-# **Topics Covered (Today — Dec 3)**
+# **Topics Covered (Dec 3)**
 
 ### **Module 1: Introduction to Linux & Assets**
 
 **Key Concepts:**
 
-* Purpose of Linux in cybersecurity
+* Why Linux matters for security work
 * File system hierarchy (`/home`, `/etc`, `/var`)
 * Absolute vs relative paths
 * Basic navigation commands
-* Why Linux is used in security operations
-* Importance of assets, vulnerabilities, and threats
-* Relationship between asset value and security posture
+* Assets, vulnerabilities, and threats framework
+* How asset value drives security decisions
 
-**Important Terms:**
-
-* **CLI:** Command Line Interface
-* **Permissions:** Read, Write, Execute
-* **Asset:** Any valuable resource to protect
-* **Vulnerability:** Weakness an attacker can exploit
-* **Threat:** Anything that can exploit a vulnerability
+**Important Terms:** CLI, Permissions, Asset, Vulnerability, Threat
 
 ---
 
@@ -39,17 +32,17 @@
 
 **Key Takeaways:**
 
-* Linux navigation is foundational before doing exploitation.
-* Understanding permissions is essential for hardening systems.
-* Everything in Linux is a file, which makes behavior predictable.
+* Need solid Linux navigation before touching exploitation tools.
+* Permissions control system behavior — critical for security work.
+* Linux treats everything as a file, which makes system control consistent.
 
 ---
 
 # **Key Takeaways (Dec 3)**
 
-1. Linux navigation commands support almost every security workflow.
-2. The asset–vulnerability–threat relationship is the foundation of risk management.
-3. Setting up the VulnForge tool today prepares for future CVE work.
+1. Navigation commands are foundational for most security workflows.
+2. Asset–vulnerability–threat structure shows up everywhere in risk management.
+3. VulnForge updates keep CVE documentation consistent.
 
 ---
 
@@ -57,71 +50,48 @@
 
 ### **VulnForge Tool Update**
 
-**Improvement Added:**
-
 * Added `source_url` field to `new_case.py`.
-* Tested the tool and confirmed metadata appears in notes.md.
+* Verified new metadata shows in template output.
 
-**Why This Matters:**
-Automates consistency across 12+ CVE reproductions.
-
----
-
-# **Questions / Confusion (Dec 3)**
-
-* How advanced will SQL become in this course?
-* Should I supplement SQL practice with DVWA or TryHackMe?
+**Purpose:** Keep future CVE cases formatted uniformly.
 
 ---
 
-# **Next Day Goals (Thu Dec 4)**
+# **Next Day Goals (Dec 4)**
 
-* Complete Linux Permissions Lab
-* Complete Linux Commands Lab
-* Add both files to `/Labs`
-* Add Thursday notes to Week05 file
+* Linux Permissions Lab
+* Linux Commands Lab
+* Add both labs to `/Labs`
+* Document Thursday progress
 
 ---
 
-# **Topics Covered (Today — Dec 4)**
+# **Topics Covered (Dec 4)**
 
 ### **Module 2: The Linux Operating System**
 
 **Key Concepts:**
 
-* Linux file permissions (r, w, x)
-* Users, groups, and others
+* File permissions (read, write, execute)
+* Users, groups, others
 * Why permissions matter for system security
-* Directory responsibilities and file system behavior
-* Privilege boundaries inside Linux
+* Directory responsibilities
+* Privilege boundaries
 
-**Important Terms:**
-
-* **Owner:** User who controls the file
-* **Group:** Assigned group with shared rights
-* **Permissions:** Actions allowed on a file
-* **Privilege:** Level of access a user holds
-* **Access Control:** Mechanism that enforces allowed actions
+**Important Terms:** Owner, Group, Permissions, Privilege, Access Control
 
 ---
 
-### **Module 3: Linux Commands in the Bash Shell**
+### **Module 3: Linux Commands in Bash**
 
 **Key Concepts:**
 
-* Navigation with `pwd`, `cd`, `ls`
-* Directory creation
-* File operations (`touch`, `cp`, `mv`, `rm`, `cat`)
-* Permission checking with `ls -l`
-* User identity (`whoami`)
-* Testing privilege boundaries with `sudo`
+* Navigation and directory structure
+* File manipulation (`touch`, `cp`, `mv`, `rm`, `cat`)
+* Checking permissions with `ls -l`
+* Identity and escalation (`whoami`, `sudo`)
 
-**Important Terms:**
-
-* **Shell:** Command interpreter
-* **Bash:** Most common Linux shell
-* **Home Directory:** User workspace
-* **Sudo:** Temporary privilege escalation
+**Important Terms:** Shell, Bash, Home Directory, Sudo
 
 ---
 
@@ -131,16 +101,15 @@ Automates consistency across 12+ CVE reproductions.
 
 **Skills Practiced:**
 
-* `chmod` symbolic vs numeric
-* `chown` for user and group ownership
-* Switching users and testing access restrictions
-* Viewing permission changes with `ls -l`
+* `chmod` symbolic vs numeric notation
+* `chown` for ownership changes
+* Testing access by switching users
+* Inspecting permission changes
 
 **Key Takeaways:**
-
-* Permissions directly control what users can or cannot do.
-* Ownership is separate from permissions.
-* Proper file permissions prevent privilege misuse.
+Permissions control what users can actually do.
+Ownership and permissions are separate — both matter.
+Proper access control prevents system misuse.
 
 ---
 
@@ -148,82 +117,62 @@ Automates consistency across 12+ CVE reproductions.
 
 **Skills Practiced:**
 
-* Directory creation and movement
-* File creation, copying, moving, deleting
-* Using `cat` to view file contents
-* Observing permission-denied results with `/root`
+* Creating and navigating directories
+* File creation, modification, deletion
+* Viewing contents with `cat`
+* Hitting permission-denied cases
 
 **Key Takeaways:**
-
-* Bash fluency is required before exploitation or defensive work.
-* File operations must be understood to identify misconfigurations.
-* Permission-denied outputs show how Linux enforces boundaries.
+Bash fluency speeds up lab work significantly.
+File operations reveal potential misconfigurations.
+Permission-denied messages enforce privilege boundaries.
 
 ---
 
 # **Key Takeaways (Dec 4)**
 
-1. Permission management strengthens system security.
-2. Ownership vs permissions must be understood for access auditing.
-3. Bash skills make future labs significantly faster.
-4. Linux fundamentals support DVWA, SQLi, and CVE workflows.
+1. Correct permission setup is required for secure systems.
+2. Understanding ownership matters for access audits.
+3. Bash skills directly support SQLi and CVE work.
 
 ---
 
 # **Hands-On Work (Dec 4)**
 
-**Lab Files Added:**
+Files created:
+`2025-12-04_Linux_Permissions_Lab.md`
+`2025-12-04_Linux_Commands_Lab.md`
 
-* `2025-12-04_Linux_Permissions_Lab.md`
-* `2025-12-04_Linux_Commands_Lab.md`
+Evidence:
+Navigation, permission, and ownership screenshots.
 
-**Evidence Added:**
-
-* Navigation, permission, and file operation screenshots
-* Ownership change verification
-
-**Why This Matters:**
-Real Linux experience prepares for SQLi labs and future CVE exploitation.
+**Purpose:** Build systems knowledge before SQLi testing.
 
 ---
 
-# **Questions / Confusion (Dec 4)**
-
-* Is numeric or symbolic permission notation preferred in production?
-* When should permissions be modified at the group level vs the user level?
-
----
-
-# **Next Day Goals (Fri Dec 5)**
+# **Next Day Goals (Dec 5)**
 
 * Complete SQL Intermediate Lab
-* Finish Module 4 (SQLi, XSS, CSRF)
-* Update Week05 notes with Module 4
-* Add lab file: `2025-12-05_SQL_Intermediate_Lab.md`
-* Prepare system for SQL injection testing (DVWA or equivalent)
+* Finish Module 4
+* Add SQL lab to `/Labs`
+* Update Week05 notes
+* Prep for DVWA SQL injection work
 
 ---
 
-# **Topics Covered (Today — Dec 5)**
+# **Topics Covered (Dec 5)**
 
-### **Module 4: Web Vulnerabilities (SQLi, XSS, CSRF)**
+### **Module 4: Web Vulnerabilities**
 
 **Key Concepts:**
 
-* How databases interact with web applications
 * SQL injection fundamentals
-* Cross-site scripting and script injection risks
-* Cross-site request forgery and session abuse
-* Input validation and prepared statements
-* Why user-supplied data is dangerous
+* Cross-site scripting (XSS)
+* Cross-site request forgery (CSRF)
+* Secure input validation
+* Prepared statements and safe query execution
 
-**Important Terms:**
-
-* **SQL Injection:** Manipulating queries through user input
-* **XSS:** Injecting malicious JavaScript into pages
-* **CSRF:** Forcing actions through forged requests
-* **Prepared Statement:** Safe, parameterized SQL query
-* **Input Validation:** Filtering and sanitizing user input
+**Important Terms:** SQL Injection, XSS, CSRF, Prepared Statement, Input Validation
 
 ---
 
@@ -233,67 +182,49 @@ Real Linux experience prepares for SQLi labs and future CVE exploitation.
 
 **Skills Practiced:**
 
-* Creating a database and table
-* Inserting data (`INSERT`)
-* Modifying rows (`UPDATE`)
-* Deleting rows (`DELETE`)
-* Sorting results with `ORDER BY`
-* Verifying each operation with `SELECT`
+* Creating tables
+* Inserting records (`INSERT`)
+* Updating records (`UPDATE`)
+* Deleting records (`DELETE`)
+* Sorting with `ORDER BY`
+* Verifying changes using `SELECT`
 
 **Key Takeaways:**
-
-* SQL modification commands are powerful and potentially destructive.
-* `WHERE` clauses must be precise to avoid accidental changes.
-* Sorting data helps identify highest-impact records.
-* Understanding normal SQL behavior is required before learning SQL injection.
+SQL modification commands need careful handling.
+Accurate `WHERE` clauses prevent unintended changes.
+SQL fundamentals are required before testing injection attacks.
 
 ---
 
 # **Key Takeaways (Dec 5)**
 
-1. SQL operations form the base layer for understanding SQL injection attacks.
-2. Database modification commands require careful verification.
-3. Module 4 connects theory (web vulnerabilities) with practice (SQL operations).
-4. Completing today’s lab builds confidence with real database environments.
-5. Today’s work sets the stage for VulnForge SQL Injection testing.
+1. SQL operations are the foundation for understanding SQL injection.
+2. Module 4 connects database concepts with real exploits.
+3. SQL Intermediate Lab sets up CVE #1 testing.
 
 ---
 
 # **Hands-On Work (Dec 5)**
 
-**Lab File Added:**
+File added:
+`2025-12-05_SQL_Intermediate_Lab.md`
 
-* `2025-12-05_SQL_Intermediate_Lab.md`
+Evidence:
+`2025-12-05_SQL_IntermediateLab_Completed.png`
 
-**Evidence Added:**
-
-* Final SQL output screenshot:
-  `2025-12-05_SQL_IntermediateLab_Completed.png`
-
-**Why This Matters:**
-These SQL operations mirror the exact commands that attackers manipulate during injection attacks.
+**Purpose:** Learn normal SQL behavior before exploring injection techniques.
 
 ---
 
-# **Questions / Confusion (Dec 5)**
+# **Next Day Goals (Dec 6)**
 
-* How often do real-world developers still rely on raw SQL versus ORMs?
-* What common mistakes lead to SQL injection in beginner-level applications?
-
----
-
-# **Next Day Goals (Sat Dec 6)**
-
-* Create CVE #1 directory with `new_case.py`
-* Set up DVWA or SQLi TryHackMe room
-* Fill in CVE #1 notes: Summary, Lab Environment, Basic Payloads
-* Perform at least one SQLi attempt (success not required yet)
-* Add Saturday notes
+* Initialize VulnForge CVE #1
+* Set up DVWA or TryHackMe SQLi
+* Fill Summary, Lab Environment, Payloads sections
+* Conduct first SQL injection attempt
 
 ---
 
-## **Reflection (Will complete on Dec 7)**
+# **Reflection (To be completed Dec 7)**
 
-*(Leave blank until Sunday.)*
-
----
+*(Leave blank until Sunday)*
