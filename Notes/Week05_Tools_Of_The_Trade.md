@@ -225,6 +225,159 @@ Evidence:
 
 ---
 
-# **Reflection (To be completed Dec 7)**
+# **Topics Covered (Dec 6)**
 
-*(Leave blank until Sunday)*
+### **CVE Case Study #1: SQL Injection**
+
+**Key Concepts:**
+
+* Union-based SQL injection
+* Error-based information gathering
+* Database enumeration techniques
+* Payload crafting and testing
+* Attack surface analysis
+
+**Important Terms:** Union Select, Database Schema, Payload, Enumeration, Attack Vector
+
+---
+
+# **Labs Completed (Dec 6)**
+
+### **VulnForge CVE #1 — SQL Injection Attack**
+
+**Skills Practiced:**
+
+* Initializing VulnForge case structure
+* Setting up DVWA SQL injection lab
+* Testing basic injection payloads
+* Documenting attack methodology
+* Recording proof-of-concept exploits
+
+**Key Takeaways:**
+Real exploitation requires methodical payload testing.
+Documentation during attack matters for reports.
+Understanding SQL structure enables better injection techniques.
+
+---
+
+# **Key Takeaways (Dec 6)**
+
+1. VulnForge documentation creates professional portfolio evidence.
+2. SQL injection testing combines Linux, SQL, and web security knowledge.
+3. Attack methodology needs to be reproducible and clear.
+
+---
+
+# **Hands-On Work (Dec 6)**
+
+VulnForge work:
+* Ran `python new_case.py` for CVE #1
+* Documented lab environment setup
+* Captured initial payloads and results
+* Added screenshots to `/Evidence`
+
+**Purpose:** Create first complete CVE case study for portfolio.
+
+---
+
+# **Next Day Goals (Dec 7)**
+
+* Complete CVE #1 write-up
+* Add mitigation section
+* Review week's progress
+* Fill reflection and total hours
+* Plan Week 06 priorities
+
+---
+
+# **Topics Covered (Dec 7)**
+
+### **CVE #1 Completion & Review**
+
+**Key Concepts:**
+
+* Mitigation strategies for SQL injection
+* Defensive coding practices
+* Input validation and sanitization
+* Prepared statements implementation
+* Security testing best practices
+
+**Important Terms:** Parameterized Query, Whitelist Validation, Least Privilege, Defense in Depth
+
+---
+
+# **Labs Completed (Dec 7)**
+
+### **CVE #1 Final Documentation**
+
+**Skills Practiced:**
+
+* Writing clear mitigation recommendations
+* Explaining technical concepts for non-technical readers
+* Organizing evidence for portfolio review
+* Creating reproducible attack documentation
+
+**Key Takeaways:**
+Complete documentation requires offense and defense perspectives.
+Mitigation advice shows security thinking beyond exploitation.
+Portfolio quality depends on clear communication.
+
+---
+
+# **Key Takeaways (Dec 7)**
+
+1. CVE #1 integrates Linux, SQL, and web security concepts from entire week.
+2. Documentation quality directly impacts internship readiness.
+3. Week 05 built foundational skills for upcoming exploitation work.
+
+---
+
+# **Hands-On Work (Dec 7)**
+
+Files finalized:
+* Complete CVE #1 case study with all sections
+* Week 05 notes updated with full progress
+* Evidence organized in `/Evidence` directory
+
+**Purpose:** Deliver complete, portfolio-ready case study.
+
+---
+
+# **Weekly Reflection**
+
+**What Worked:**
+* Consistent lab documentation made CVE #1 write-up easier.
+* Linux and SQL skills transferred directly to injection testing.
+* VulnForge structure kept work organized and professional.
+
+**What Could Improve:**
+* Could have started CVE #1 earlier in the week for more testing time.
+* Need to balance speed with documentation quality.
+* Should review previous week's notes before starting new topics.
+
+**Connections Made:**
+* Linux permissions relate to privilege escalation attacks.
+* SQL fundamentals are required for understanding injection impact.
+* Asset management concepts apply to prioritizing vulnerabilities.
+
+**Next Week Focus:**
+* Complete Course 4 if remaining modules exist.
+* Begin Course 5 or start second CVE case study.
+* Maintain lab documentation consistency.
+* Review GitHub portfolio presentation.
+
+---
+
+# **Week 05 Summary**
+
+**Certifications Progress:** Course 4 content — significant progress
+**Labs Completed:** 4 (Linux Basics, Permissions, Commands, SQL Intermediate)
+**CVE Cases:** 1 (SQL Injection — first complete case study)
+**Tools Used:** VulnForge, DVWA, Kali Linux, Bash, SQL
+**GitHub Updates:** All labs documented, CVE #1 added to portfolio
+
+**Portfolio Impact:**
+First complete CVE case study demonstrates hands-on exploitation skills. Linux and SQL lab documentation shows foundational competency. VulnForge structure proves organized methodology for future case studies.
+
+**Recruiter Takeaway:**
+Candidate successfully documented real SQL injection attack with mitigation recommendations. Technical writing quality matches hands-on skills. Evidence shows systematic approach to vulnerability research.
