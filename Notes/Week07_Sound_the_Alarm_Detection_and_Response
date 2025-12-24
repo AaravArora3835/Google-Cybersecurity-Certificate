@@ -1,0 +1,250 @@
+# **Week 07 — Sound the Alarm: Detection and Response**
+
+**Date Range:** Dec 17 – Dec 21, 2025
+**Total Hours:** 12
+**Phase:** Google Cybersecurity Certificate — Course 6
+
+---
+
+# **Topics Covered (Dec 17)**
+
+### **Module 1: Introduction to Detection and Incident Response**
+
+**Key Concepts:**
+
+* Incident response lifecycle phases (Preparation, Detection and Analysis, Containment Eradication and Recovery, Post-Incident Activity)
+* Security operations center (SOC) structure and analyst tiers
+* Incident classification levels (low, medium, high, critical)
+* Detection methods: signature-based, anomaly-based, behavior-based
+* Incident response plans vs playbooks vs runbooks
+* NIST incident response framework
+* Security orchestration, automation, and response (SOAR)
+
+**Important Terms:** Incident Response, SOC, Playbook, Detection, Alert, Incident Handler, SOAR, Triage
+
+---
+
+# **Key Takeaways (Dec 17)**
+
+1. Incident response is structured and repeatable — not random firefighting.
+2. Detection speed directly impacts damage limitation and recovery costs.
+3. SOC analysts use playbooks to standardize response actions across teams.
+
+---
+
+# **Hands-On Work (Dec 17)**
+
+Completed Module 1 lectures and assessments.
+Reviewed incident response case studies.
+Studied NIST SP 800-61 incident handling guidance.
+
+**Purpose:** Understand professional incident response before learning detection tools.
+
+---
+
+# **Next Day Goals (Dec 18)**
+
+* Module 2: Network monitoring and analysis
+* Focus on IDS/IPS concepts
+* Learn packet analysis fundamentals
+
+---
+
+# **Topics Covered (Dec 18)**
+
+### **Module 2: Network Monitoring and Analysis**
+
+**Key Concepts:**
+
+* Network protocol analysis (TCP/IP, HTTP, DNS)
+* Traffic baseline establishment and anomaly detection
+* Intrusion detection systems (IDS) vs intrusion prevention systems (IPS)
+* Signature-based vs anomaly-based detection
+* Network segmentation as defense strategy
+* Common network attack indicators (port scans, DDoS, data exfiltration)
+* Packet capture and analysis with Wireshark and tcpdump
+* Network security monitoring (NSM) methodology
+
+**Important Terms:** IDS, IPS, Packet Capture, Network Traffic Analysis, Baseline, Wireshark, tcpdump, Snort, Zeek
+
+---
+
+# **Key Takeaways (Dec 18)**
+
+1. Network monitoring provides visibility into attacks that bypass endpoint security.
+2. Baseline understanding enables anomaly detection — must know "normal" before identifying "abnormal."
+3. IDS detects threats, IPS blocks them — different tools for different security goals.
+
+---
+
+# **Hands-On Work (Dec 18)**
+
+Completed Module 2 content and quizzes.
+Studied Wireshark packet analysis examples.
+Reviewed network protocol behaviors for common attacks.
+
+**Purpose:** Build network analysis foundation for threat detection and CVE exploitation research.
+
+---
+
+# **Next Day Goals (Dec 19)**
+
+* Module 3: Incident investigation and response
+* Learn digital forensics basics
+* Study evidence handling procedures
+
+---
+
+# **Topics Covered (Dec 19)**
+
+### **Module 3: Incident Investigation and Response**
+
+**Key Concepts:**
+
+* Digital forensics fundamentals and investigation process
+* Evidence collection, preservation, and chain of custody
+* Log analysis and correlation across systems
+* Incident timeline reconstruction techniques
+* Containment strategies: isolation, segmentation, system shutdown
+* Eradication: removing threat actor access and malware
+* Recovery: restoring systems and verifying security
+* Communication during incidents (technical team, management, legal, PR)
+* Post-incident analysis and lessons learned documentation
+
+**Important Terms:** Digital Forensics, Chain of Custody, Log Analysis, Containment, Eradication, Recovery, Post-Mortem, Root Cause Analysis
+
+---
+
+# **Key Takeaways (Dec 19)**
+
+1. Evidence handling procedures are critical for legal proceedings and effective analysis.
+2. Containment must balance stopping the attack with preserving forensic evidence.
+3. Post-incident reviews prevent future occurrences — not just blame assignment.
+
+---
+
+# **Hands-On Work (Dec 19)**
+
+Completed Module 3 lectures and assessments.
+Analyzed incident response case studies.
+Reviewed evidence documentation templates.
+
+**Purpose:** Understand professional investigation standards for future security work and CVE documentation.
+
+---
+
+# **Next Day Goals (Dec 20)**
+
+* Module 4: IDS and SIEM tools
+* Learn SIEM query fundamentals
+* Study alert rule creation
+
+---
+
+# **Topics Covered (Dec 20)**
+
+### **Module 4: Network Traffic and Logs Using IDS and SIEM Tools**
+
+**Key Concepts:**
+
+* Security Information and Event Management (SIEM) architecture and data flow
+* Log aggregation, normalization, and parsing
+* Detection rule creation and tuning
+* Alert prioritization and false positive reduction
+* Common SIEM platforms: Splunk, Elastic Stack (ELK), Google Chronicle, IBM QRadar
+* IDS signature development and maintenance
+* Threat hunting methodology using SIEM data
+* Security metrics: MTTD (Mean Time to Detect), MTTR (Mean Time to Respond)
+* Correlation rules for detecting multi-stage attacks
+
+**Important Terms:** SIEM, Log Aggregation, Alert Rules, False Positive, Splunk, Chronicle, IDS Signature, Threat Hunting, Correlation
+
+---
+
+# **Key Takeaways (Dec 20)**
+
+1. SIEM tools enable detection at scale by correlating events across entire infrastructure.
+2. Alert tuning is continuous — reducing false positives without missing real threats.
+3. Threat hunting proactively searches for threats rather than waiting for alerts.
+
+---
+
+# **Hands-On Work (Dec 20)**
+
+Completed Module 4 content and assessments.
+Studied SIEM query syntax examples (Splunk SPL basics).
+Reviewed detection rule logic and alert workflows.
+
+**Purpose:** Learn enterprise security tools used in SOC environments and internship roles.
+
+---
+
+# **Next Day Goals (Dec 21)**
+
+* Complete Course 6 final assessment
+* Screenshot course completion
+* Document week's progress
+* Plan Week 08 and CVE #2 work
+
+---
+
+# **Topics Covered (Dec 21)**
+
+### **Course 6 Review & Career Application**
+
+**Key Concepts:**
+
+* End-to-end incident response workflow integration
+* Detection to response pipeline in SOC operations
+* Tool ecosystem in modern security operations
+* Incident metrics and KPIs for effectiveness measurement
+* SOC analyst career paths (Tier 1, 2, 3 progression)
+* Continuous improvement through lessons learned
+
+**Important Terms:** Incident Metrics, MTTD, MTTR, SOC Analyst, Security Operations, Continuous Monitoring
+
+---
+
+# **Key Takeaways (Dec 21)**
+
+1. Course 6 connected detection, analysis, and response into complete security operations picture.
+2. SOC analyst skills (monitoring, triaging, investigating) directly apply to internship roles.
+3. Detection and response knowledge improves CVE exploitation understanding — know how defenders see attacks.
+
+---
+
+# **Hands-On Work (Dec 21)**
+
+Files created:
+`2025-12-21_Course6_Completed.png`
+
+Evidence:
+Course completion certificate screenshot captured.
+
+**Purpose:** Document certification progress and demonstrate security operations competency.
+
+---
+
+# **Weekly Reflection**
+
+**What Worked:**
+* Completed entire course in one focused week — maintaining momentum on certification.
+* Detection and response concepts complement offensive security knowledge from CVE #1.
+* Understanding defender perspective improves attack methodology and mitigation recommendations.
+
+**What Could Improve:**
+* Two consecutive theory-heavy weeks — need hands-on lab work in Week 08.
+* Should have taken more detailed notes on SIEM query syntax for future reference.
+* Need to schedule practical IDS/SIEM lab work or TryHackMe rooms.
+
+**Connections Made:**
+* Network monitoring (Module 2) reveals how defenders detect SQLi attacks from CVE #1.
+* SIEM correlation rules (Module 4) show how multiple suspicious events trigger alerts.
+* Incident investigation procedures (Module 3) structure how to document CVE exploitation properly.
+* Log analysis skills apply directly to analyzing web server logs during penetration testing.
+
+**Next Week Focus:**
+* Start Course 7 (Automate Cybersecurity Tasks with Python)
+* Initialize VulnForge CVE #2 — target XSS or privilege escalation vulnerability
+* Balance theory with practical exploitation work
+* Consider TryHackMe SIEM or network analysis rooms for hands-on practice
